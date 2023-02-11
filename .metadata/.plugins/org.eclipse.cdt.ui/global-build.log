@@ -1,0 +1,422 @@
+21:33:50 **** Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LED_program.c: In function 'LED_voidOff':
+../LED_program.c:82: error: 'DIO_PIN_LoW' undeclared (first use in this function)
+../LED_program.c:82: error: (Each undeclared identifier is reported only once
+../LED_program.c:82: error: for each function it appears in.)
+../LED_program.c: In function 'LED_voidPortInit':
+../LED_program.c:124: error: expected ')' before numeric constant
+../LED_program.c: In function 'LED_voidTogglePort':
+../LED_program.c:132: warning: parameter names (without types) in function declaration
+../LED_program.c:132: error: conflicting types for 'DIO_enumTogglePortValue'
+../LED_program.c:132: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+../DIO_interface.h:56: error: previous declaration of 'DIO_enumTogglePortValue' was here
+../LED_program.c: In function 'LED_voidFlashPort':
+../LED_program.c:170: warning: parameter names (without types) in function declaration
+make: *** [LED_program.o] Error 1
+21:38:19 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LED_program.c: In function 'LED_voidOff':
+../LED_program.c:82: error: 'DIO_PIN_LoW' undeclared (first use in this function)
+../LED_program.c:82: error: (Each undeclared identifier is reported only once
+../LED_program.c:82: error: for each function it appears in.)
+../LED_program.c: In function 'LED_voidPortInit':
+../LED_program.c:124: error: expected ')' before numeric constant
+../LED_program.c: In function 'LED_voidTogglePort':
+../LED_program.c:132: warning: parameter names (without types) in function declaration
+../LED_program.c:132: error: conflicting types for 'DIO_enumTogglePortValue'
+../LED_program.c:132: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+../DIO_interface.h:56: error: previous declaration of 'DIO_enumTogglePortValue' was here
+../LED_program.c: In function 'LED_voidFlashPort':
+../LED_program.c:170: warning: parameter names (without types) in function declaration
+make: *** [LED_program.o] Error 1
+21:39:36 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LED_program.c: In function 'LED_voidPortInit':
+../LED_program.c:124: error: expected ')' before numeric constant
+../LED_program.c: In function 'LED_voidTogglePort':
+../LED_program.c:132: warning: parameter names (without types) in function declaration
+../LED_program.c:132: error: conflicting types for 'DIO_enumTogglePortValue'
+../LED_program.c:132: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+../DIO_interface.h:56: error: previous declaration of 'DIO_enumTogglePortValue' was here
+../LED_program.c: In function 'LED_voidFlashPort':
+../LED_program.c:170: warning: parameter names (without types) in function declaration
+make: *** [LED_program.o] Error 1
+21:40:28 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LED_program.c: In function 'LED_voidFlashPort':
+../LED_program.c:170: warning: parameter names (without types) in function declaration
+../LED_program.c:170: error: conflicting types for 'DIO_enumTogglePortValue'
+../LED_program.c:170: note: an argument type that has a default promotion can't match an empty parameter name list declaration
+../DIO_interface.h:56: error: previous declaration of 'DIO_enumTogglePortValue' was here
+make: *** [LED_program.o] Error 1
+21:40:40 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LED_program.c
+ 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+../main.c: In function 'main':
+../main.c:28: warning: comparison between pointer and integer
+../main.c:32: warning: the address of 'SW_u8GetPressed' will never be NULL
+Finished building: ../main.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9720 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:43:20 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9720 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:07:27 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../DIO_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"DIO_program.d" -MT"DIO_program.o" -c -o "DIO_program.o" "../DIO_program.c"
+Finished building: ../DIO_program.c
+ 
+Building file: ../LED_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"LED_program.d" -MT"LED_program.o" -c -o "LED_program.o" "../LED_program.c"
+In file included from ../LED_program.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../LED_program.c
+ 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9720 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:11:14 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9750 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:29:54 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9750 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:30:27 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9748 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:31:30 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../SW_program.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"SW_program.d" -MT"SW_program.o" -c -o "SW_program.o" "../SW_program.c"
+Finished building: ../SW_program.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9750 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:32:42 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9746 bytes (29.7% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+22:49:20 **** Incremental Build of configuration Debug for project 1-Contlor_LED_Using_Button ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:10:
+d:/embedded systems diploma/tools/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/Util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c:18: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: 1-Contlor_LED_Using_Button.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,1-Contlor_LED_Using_Button.map -mmcu=atmega32 -o "1-Contlor_LED_Using_Button.elf"  ./DIO_program.o ./LED_program.o ./SW_program.o ./main.o   
+Finished building target: 1-Contlor_LED_Using_Button.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S 1-Contlor_LED_Using_Button.elf  >"1-Contlor_LED_Using_Button.lss"
+Finished building: 1-Contlor_LED_Using_Button.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex 1-Contlor_LED_Using_Button.elf  "1-Contlor_LED_Using_Button.hex"
+Finished building: 1-Contlor_LED_Using_Button.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 1-Contlor_LED_Using_Button.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9750 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:        268 bytes (13.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
